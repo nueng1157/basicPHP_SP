@@ -25,7 +25,9 @@ echo "<hr>";
 $a =(integer)10.9;
 $b =(integer)20.5;
 $c =$a+$b;
+$d ="onenueng";
 echo $c;
 echo "<hr>";
+
 
 ?>
