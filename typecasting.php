@@ -1,18 +1,19 @@
 <?php
 
-$price ="100.50";
+$price ="100.17";
 
-$dalivery = 50;
+$dalivery = 50.99;
 
 $total = $price + $dalivery;
 
 echo "before= ".gettype($total)."<br>";
 echo $total."<br>";
-//type casting
 
+
+//type casting
 $total=(integer)$total."<br>";
 echo "after= ".gettype($total)."<br>";
-
+echo $total."<br>";
 
 echo "<hr>";
 $sum = "500.99";
@@ -21,13 +22,15 @@ echo $sum."<br>";
 $sum=(double)$sum;
 echo "after= ".gettype($sum)."<br>";
 echo $sum."<br>";
+
 echo "<hr>";
 $a =(integer)10.9;
 $b =(integer)20.5;
-$c =$a+$b;
-$d ="onenueng";
-echo $c;
-echo "<hr>";
 
+$c =$a+$b;
+
+echo $c."<br>";
+
+echo "<hr>";
 
 ?>
