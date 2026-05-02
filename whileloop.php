@@ -1,7 +1,7 @@
 <?php
 
 //ทำซ้ำเมื่อเงื่อนไขใน while เป็นจริง
-$count = 1;
+$count = 100;
 $limit = 10;
 
 while($count <= $limit){
